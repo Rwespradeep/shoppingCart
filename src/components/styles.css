@@ -1,0 +1,106 @@
+.Home-Container {
+  display: flex;
+}
+.product-container {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filters {
+  margin: 10px;
+  padding: 15px;
+  background-color: #343a40;
+  color: white;
+  width: 19%;
+  height: 82vh;
+}
+.title {
+  font-size: 35px;
+}
+
+.filterItem {
+  padding: 6px;
+  margin: 15px;
+}
+
+.rating {
+  margin: 10px;
+  padding: 10px;
+}
+
+.clear-filter-btn {
+  margin: 15px 0;
+  width: 100%;
+}
+.image-grid {
+  padding: 5px;
+  margin: 5px;
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.inside-cart {
+  display: block;
+  cursor: pointer;
+  padding: 5px;
+  margin: 10px;
+  text-align: start;
+}
+
+.inside-cart:hover {
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
+.cart-price {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.delete-icon {
+  margin: 6px;
+  padding: 2px;
+  cursor: pointer;
+}
+.delete-icon:hover {
+  color: lightgreen;
+}
+
+.cartpage-button {
+  background-color: lightgreen;
+  border: 1px transparent;
+  border-radius: 5px;
+  height: 35px;
+  position: relative;
+  top: 5px;
+}
+
+.cartpage-button:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+.cart-empty {
+  margin: 15px;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  position: absolute;
+  bottom: 45px;
+}
+
+.summary {
+  width: 30%;
+}

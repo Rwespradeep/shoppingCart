@@ -1,0 +1,11 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav-container {
+  display: flex !important;
+  align-items: center;
+  margin: 0 15px;
+  justify-content: space-between;
+}
